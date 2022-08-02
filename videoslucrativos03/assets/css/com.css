@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+  .video-player {
+    width: 100%;
+    background: 0 0;
+  }
+  .video-player iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+  #frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+}
+
+{
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+
+
+.a-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: open-sans; 
+      vertical-align: baseline;
+      color: #2e82bc; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px; 
+      padding: 22px 44px; border-color: #0AE80D; border-width: 0px; 
+      border-radius: 30px; 
+      background: linear-gradient(to bottom, #FF951C 0%, #CF7610 100%); 
+      box-shadow: 0 0 45px 0 #FF951C; /* Sombra do botão */
+      text-decoration: none!important;
+      width:100%;
+      max-width: 390px
+}
+    
+.span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 25px;
+      color: #ffffff; 
+      font-family: Oswald; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+}
+
+.span-btn2 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #f5e051; 
+      font-family: Cabin; 
+      font-weight: bold; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+}
+
+.zoom-in-out {
+      animation:zoom-in-zoom-out 1.5s ease infinite}@keyframes zoom-in-zoom-out{0%{transform:scale(1,1)}50%{transform:scale(1.07,1.07)}100%{transform:scale(1,1)}}
+
+.quadro {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: montserrat; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 13px; 
+      color: #f5e051; 
+      font-family: montserrat; 
+      font-weight: bold;
+      text-shadow: #000000 0px 1px 0px;
+}
+
+/* Vídeo */
+
+.sombra {
+    box-shadow: 0 0 45px 0 #ff951c !important; /* Sombra do vídeo */
+}
+
+/* O Que Irá Receber */
+
+.receber {
+    padding: 2em 0em;
+}
+
+.receber .conteudo {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+
+.receber .conteudo p {
+    margin-bottom: 0;
+}
+
+.receber .conteudo img {
+    margin-left: 100px;
+}
+
+/* Depoimentos */
+
+.depoimentos {
+    padding: 2em 0em;
+}
+
+.depoimentos .depoimento iframe {
+    border: 5px solid #ff951c;
+    border-radius: 10px;
+}
+
+/* Perguntas Frequentes */
+
+.accordion .card {
+    background-color: #333;
+}
+
+.accordion .card .btn-link {
+    color: #fff;
+}
+
+.accordion .card .btn-link:hover, .accordion .card .btn-link.focus, .accordion .card .btn-link:focus {
+    text-decoration: none !important;
+}
