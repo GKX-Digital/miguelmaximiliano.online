@@ -117,5 +117,5 @@ body {
 /* Vídeo */
 
 .sombra {
-    box-shadow: 0 0 45px 0 #ff951c !important; /* Sombra do vídeo */
+    box-shadow: 0 0 15px 0 #ff951c !important; /* Sombra do vídeo */
 }
